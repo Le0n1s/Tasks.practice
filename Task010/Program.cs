@@ -5,7 +5,7 @@ if (Number >= 100 && Number <= 999)
 {
     int DecreaseByTen = Number / 10;
     int LastDigit = DecreaseByTen % 10;
-    Console.WriteLine("Вторая цифра числа =" + LastDigit);
+    Console.WriteLine("Вторая цифра числа = " + LastDigit);
 }
 else
 {
